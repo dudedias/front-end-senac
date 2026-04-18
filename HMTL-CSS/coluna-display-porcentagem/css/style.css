@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: purple;
+    color: peru;
+    width: 33.33%;
+    float: left;
+
+}
+
+.box2 {
+    background-color: peru;
+    color: purple;
+    width: 33.33%;
+    float: left;
+
+}
+
+.box3 {
+    background-color: goldenrod;
+    color: black;
+    width: 33.33%;
+    float: left;
+
+}
+
+.barra {
+    clear: both;
+}

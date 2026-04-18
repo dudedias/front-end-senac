@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    margin: 30px;
+    /* background: red; */
+    padding: 30px;
+    
+    /* box-shadow: inset 10px 10px 15px #999; */
+    box-shadow: 10px 10px 15px #999;
+    /* 
+    primeiro parametro: sombra lateral
+    segundo parametro: sombra (baixo ou cima)
+    terceiro parametro: blur (intensidade da borda)
+    quarto parametro: cor borda
+    */
+
+}
+
+div:hover{
+    box-shadow: 10px 10px 30px #999;
+}
+
+h1{
+    color: red;
+    text-shadow: -3px -6px 0px #999;
+}
+h1:hover{
+    color: rgb(4, 0, 255);
+    text-shadow: -3px -6px 0px #999;
+}
+
+
+p{  
+    margin-top: 20px
+}

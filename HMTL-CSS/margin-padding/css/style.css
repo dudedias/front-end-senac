@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 1px black;
+}
+div{
+    border: 1px solid #000;
+    
+    /* margin-top: 10px;
+    margin-right: 2px;
+    margin-bottom: 30px;
+    margin-left: 60px; 
+    essas 4 linhas podem ser resumidas em uma:
+
+    margin: 10px 60px 10px 60px;
+
+    que por sua vez também pode ser resumida por: */
+    
+    margin: 20px 60px;
+    padding: 30px 50px;
+    
+}
+
+h1{
+    border: 1px solid red;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    text-decoration: overline;
+    color:rgb(13, 139, 129);
+}
+
+p{
+    color: red;
+}

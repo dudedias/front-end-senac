@@ -1,0 +1,34 @@
+
+1. ESTRATÉGIA
+1.1. Objetivo: Gerenciar e publicar agenda e outras informações dos torneios HCT.
+1.2. Informar quando ocorrerão as próximas partidas do torneio, quais são os jogos da semana e centralizar e armazenar informações referentes ao torneio (regulamento, links externos, etc)
+1.3. O site será divulgado via grupo interno para inscritos no torneio, não sendo necessário outra estratégia de divulgação. 
+
+2. INFORMAÇÕES GERAIS SOBRE O WEB SITE
+2.1. O HCT é um campeonato que nasceu entre amigos com o intuito de diversão, aprendizagem e fazer novas amizades.
+2.2. Não há fins lucrativos, os participantes colaboram com quanto podem pagar e todo o valor arrecadado é convertido em troféus e prêmios.
+
+3. PÚBLICO-ALVO
+3.1. Jogadores de xadrez de todos os níveis, idade e gênero.
+3.2. O site irá oferecer informações referente ao campeonato vigente, bem como de campeonatos passados. As informações são: Agenda com os próximos jogos, jogos já realizados, resultados, links para as partidas já realizadas, classificação, etc.
+3.3. O site será utilizado como consulta para acompanhamento do campeonato pelos jogadores e organizadores.
+
+4. CONTEÚDO
+4.1. Funcionalidades: Agendamento de partidas, consulta de partidas realizadas, consulta de rodadas e edições anteriores (já existentes). Ainda é necessário acrescentar informação de rating e classificação (backend).
+4.2. É preciso melhorar visualmente todo o site que foi feito com pouco critério e com o objetivo primário de ser funcional.
+4.3. É necessário desenvolver a responsividade do site, que hoje não existe.
+4.4. Estudar outras formas de se apresentar alguns dados (ex.: mostrar o rating dos jogadores ao passar o mouse em cima do nome? Como ficaria o link para as partidas nesse caso?)
+4.5. Verificar necessidade de se divulgar outras informações (contato, sobre, prestação de contas, etc)
+
+5. APARÊNCIA (DESIGN)
+5.1. As cores atuais do site servem como referência, mas é necessário aprimorar e melhorar a padronização
+5.2. Desenvolver logotipo
+
+
+=======
+
+abrir/recolher caixas de partidas
+abrir/recolher menu esquerdo
+larguras p/ celular
+tela de classificação
+

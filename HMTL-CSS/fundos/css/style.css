@@ -1,0 +1,73 @@
+*{
+    padding: 0; margin:0; box-sizing: border-box;
+}
+
+/* classes iniciam com .
+IDs iniciam com # */
+
+/* body{
+    display: flex;
+} */
+
+.container{
+    background: grey;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.container p{
+    font-size: 50px;
+}
+
+#fundo-cor{
+    background-color: red;
+    padding: 50px;
+    text-align: center;
+
+}
+
+#fundo-imagem{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-image: url(../img/montanha.jpg);
+}
+
+.fundo-texto{
+    background: #00000061;
+    padding: 20px;
+    color: #fff;
+}
+
+#fundo-imagem2{
+    background-image: linear-gradient(rgba(15,96,163,0.7),rgba(40, 210, 225, 0.2)), url(../img/montanha.jpg);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.fundo-texto2{
+    background: #ffffff50;
+    
+}
+.fundo-imagem-fixo{
+    background-image: linear-gradient(rgba(15,96,163,0.7),rgba(40, 210, 225, 0.2)), url(../img/montanha.jpg);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

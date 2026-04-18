@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframe</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            position: relative;
+            animation: animacao 5s infinite;
+        }
+
+        @keyframes animacao {
+            0%{
+                top: 0px;
+                left: 0px;
+                transform: rotate(10deg);
+            }
+            
+            50%{
+                top: 200px;
+                left: 200px;
+                transform: rotate(80deg);
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+                transform: rotate(10deg);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

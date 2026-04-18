@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip</title>
+    <style>
+        .box1{
+            background-color: purple;
+            color: peru;
+            width: 150px;
+            height: 150px;    
+            padding: 10px;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            clip: rect(0 100px 100px 0);    
+            /* clip: rect(top right bottom left); */
+        }
+        .box2{
+            background-color: peru;
+            color: purple;
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="box1">
+
+            <p>1Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, numquam at? </p>
+
+            <div class="box2">
+
+                <p>2Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, numquam at? </p>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

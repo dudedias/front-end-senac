@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#caixa1{
+    /* background: linear-gradient(to right, blue, red, blue, green, yellow); */
+    background: linear-gradient(to top, blue, rgb(94, 94, 207), blue);
+/*primeiro parametro: ponto inicial
+segundo parametro: cor inicial
+terceiro parametro: cor final */
+
+    border-radius: 60px 10px 90px 3px;
+
+}
+
+#caixa2{
+    background: linear-gradient(225deg, yellow, purple);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+#caixa3{
+    background: radial-gradient(purple 70%, yellow 30%);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}

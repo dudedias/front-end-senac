@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: purple;
+    color: peru;
+
+
+}
+
+.box2 {
+    background-color: peru;
+    color: purple;
+
+
+}
+
+.box3 {
+    background-color: goldenrod;
+    color: saddlebrown;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: 1fr 0.5fr 0.5fr; */
+    /* grid-template-columns: 50% 25% 25%; */
+}

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: purple;
+    color: peru;
+
+
+}
+
+.box2 {
+    background-color: peru;
+    color: purple;
+
+
+}
+
+.box3 {
+    background-color: goldenrod;
+    color: saddlebrown;
+}
+
+main{
+    display: flex;
+    /* flex-direction: column; */
+}
